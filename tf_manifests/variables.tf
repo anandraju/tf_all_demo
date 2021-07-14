@@ -1,6 +1,6 @@
 variable "env" {
   type    = string
-  default = "test"
+  #default = "test"
 }
 variable "location-name" {
   type    = string
@@ -8,7 +8,7 @@ variable "location-name" {
 }
 variable "admin_password" {
   type    = string
-  default = "data.azurerm_key_vault_secret.kv01.value"
+  #default = "data.azurerm_key_vault_secret.kv01.value"
 }
 
  
